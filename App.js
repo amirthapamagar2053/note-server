@@ -13,7 +13,7 @@ App.use(express.json());
 App.use(middleware.requestLogger);
 
 // App.use(express.json());
-App.use("/notes", notesRouter);
+App.use("/api/notes", notesRouter);
 
 App.use(middleware.unknownEndpoint);
 
